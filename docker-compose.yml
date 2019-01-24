@@ -24,6 +24,7 @@ services:
       DB_URI: mongodb://mongo/unifi
       STATDB_URI: mongodb://mongo/unifi_stat
       DB_NAME: unifi
+      TZ: "America/New_York"
     ports:
       - "8080:8080"
       - "8880:8880"
